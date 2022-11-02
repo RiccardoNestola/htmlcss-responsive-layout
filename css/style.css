@@ -12,6 +12,16 @@ header {
     padding: 2rem;
 }
 
+.white_text {
+    color:white;
+}
+.dark_text {
+    color:black;
+}
+
+.violet_text {
+    color:#9792E4;
+}
 
 #info_grid {
     margin-top: 2rem;
@@ -22,6 +32,7 @@ a {
 }
 
 .card h2,
+h3,
 p,
 button {
     padding: 1rem;
@@ -61,8 +72,10 @@ button {
 
 }
 
-#strategic {
+#strategic,
+#benefits {
     background-color: #9792E4;
+    padding: 2rem;
 }
 
 .img_left,
@@ -78,7 +91,24 @@ button {
     border-radius: 25px;
 }
 
+.intro_testimonials {
+    text-align: center;
+    padding: 2rem;
+}
 
+.violet_card {
+    background-color: #9792E4;
+    border-radius: 25px;
+    padding: 1rem;
+    color:white;
+    margin: 1.5rem 1.5rem;
+}
 
-
+.number_card {
+    background-color: white;
+    border-radius: 25px;
+    padding: 1rem;
+    color: #9792E4;
+    margin: 1.5rem 1.5rem;
+}
 
