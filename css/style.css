@@ -59,5 +59,26 @@ button {
     border-radius: 5px;
     margin-bottom: 1rem;
 
-
 }
+
+#strategic {
+    background-color: #9792E4;
+}
+
+.img_left,
+.minicard {
+    padding: 1rem;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.card_white {
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+
+
+
