@@ -96,7 +96,8 @@ a {
 .fa-brands, .fab {
     padding-right: 0.5rem;
 }
-.card h2,
+.card,
+h2,
 h3,
 p,
 button {
@@ -140,7 +141,6 @@ button {
 }
 
 
-
 .flex {
     display: flex;
 }
@@ -168,20 +168,15 @@ button {
 
 .cards {
     width: 100%;
-    /* margin: 0 auto; */
     padding: 2rem 1rem;
-    
-
 }
 
 .card {
     padding: 1rem 1rem 0 1rem;
-    /* border: 1px solid red; */
     border-radius: 20px;
     margin-bottom: 1rem;
     background-color: #B5DDFF;
     align-items: center;
-
 }
 
 .icon {
@@ -247,7 +242,6 @@ section#benefits h1 {
 }
 
 .violet_card .name {
-    /* width: 40%; */
     text-transform: uppercase;
     font-weight: 600;
 
@@ -264,7 +258,6 @@ section#benefits h1 {
 .number {
     font-size: 4rem;
 }
-
 
 .left_title,
 .right_title {
@@ -299,11 +292,6 @@ footer{
 @media screen and (min-width: 768px) {
     
     
-    /* .flex_col {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-    } */
     .nav_desktop {
         display: none;
     }
@@ -314,50 +302,39 @@ footer{
  
     .cards{
         flex-direction: row;
-        /* align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-between; */
     }
     
 
     .cards .card {
         padding: .0;
-        /* border: 1px solid rgb(85, 0, 255); */
         border-radius: 20px;
         margin: .5rem;
         width: calc((100% / 3) - 1rem);
-       /*  height: 600px; */
-        background-color: #B5DDFF;
-    
+        background-color: #B5DDFF; 
     } 
     
     .card:first-child {
-        width: calc((100% / 3) * 2 - 1rem);
-        
+        width: calc((100% / 3) * 2 - 1rem); 
     }
 
    .violet_card {
-    flex-direction: row;
-    flex-wrap: wrap;
-
+        flex-direction: row;
+        flex-wrap: wrap;
    }
 
    figure {
-    width: 25%;
-
+        width: 25%;
    }
 
    .violet_card p {
-    width: 70%;
-    text-align: left;
-
+        width: 70%;
+        text-align: left;
    }
 
    .violet_card .name {
-    width: 40%;
-    text-transform: uppercase;
-    font-weight: 600;
-
+        width: 40%;
+        text-transform: uppercase;
+        font-weight: 600;
    }
     
     .iphone_image img {
@@ -375,9 +352,6 @@ footer{
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 6rem;
-        
-
-
     }
 
      .number_card {
@@ -385,13 +359,9 @@ footer{
         border-radius: 20px;
         margin: .5rem;
         max-width: calc(100% / 2);
-        /* height: 600px; */
         background-color: white;
         width: calc((100% / 2) - 2rem);
-    
     } 
-
-    
 
     .about_us_text {
         flex-direction: row;
@@ -434,8 +404,6 @@ footer{
     .flex_row {
         flex-direction: row;
         align-items: flex-end;
-        /* flex-wrap: wrap;
-        width: 100%; */
     }
     
     .hamburger {
@@ -483,10 +451,6 @@ footer{
         margin-bottom: 10rem;
     } 
 
-   /*  .minicard {
-        height: 400px;
-    } */ 
-
     .img_left img {
         width: 80%;
     }
@@ -500,24 +464,11 @@ footer{
     }
     
 
-    
-
     .number_card {
-        /* padding: .5rem;
-        border-radius: 20px;
-        margin: .5rem; */
-        /* max-width: calc((100% / 2) - 2rem); */
-        /* height: 600px; */
-        /* background-color: white; */
         width: calc((100% / 3) - 3rem);
     
     } 
     
-    
-    /* section#benefits h1 {
-        text-align: center;
-        padding: 2rem;
-} */
 
 
 }
