@@ -82,6 +82,12 @@ button {
     width: 100%;
 }
 
+.flex_row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .container{
     width: 100%;
 }
@@ -95,7 +101,7 @@ button {
 }
 
 .card {
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
     border: 1px solid red;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -149,6 +155,10 @@ button {
 }
 
 
+#get_started {
+    text-align: center;
+}
+
 footer{
     background-color: #333333;
     text-align: center;
@@ -163,6 +173,14 @@ footer{
 /* tablet */
 @media screen and (min-width: 768px) {
     
+
+    /* .flex_col {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    } */
+
+
     #info_grid {
          margin-top: .5rem;
     }
@@ -230,13 +248,31 @@ footer{
     
     } 
 
-    
+    .about_us_text {
+        flex-direction: row;
+    }
   
+    .left_title,
+    .right_title {
+        width: calc(100% / 2);
+    }
+
+    
 }
 
 
 
 /* desktop */
 @media (min-width: 992px) {
+
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .violet_card {
+        
+        margin-bottom: 1.5rem;
+    }
   
 }
