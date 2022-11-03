@@ -5,9 +5,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
 header {
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     background-color: #0084FD;
     padding: 2rem;
 }
@@ -19,6 +22,14 @@ img {
 .get_text {
     width: 100%;
     height: 45%;
+    text-align: center;
+    
+}
+
+section#info_grid h2 {
+    color: #0084FD;
+    font-size: 2rem;
+    
 }
 
 .iphone_image {
@@ -48,11 +59,17 @@ img {
 }
 
 #info_grid {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 a {
     text-decoration: none;
+}
+
+
+.fa-solid, .fas {
+    color: white;
+    font-size: 1.5rem;
 }
 
 .card h2,
@@ -60,6 +77,16 @@ h3,
 p,
 button {
     padding: 1rem;
+}
+
+.blue_button {
+    border: none;
+    background-color: #0084FD;
+    border-radius: 50px;
+    color: white;
+    width: 15rem;
+    font-size: 1.2rem;
+    margin: 1rem 0;
 }
 
 .flex {
@@ -97,8 +124,8 @@ button {
 
 .card {
     padding: 1rem 1rem 0 1rem;
-    border: 1px solid red;
-    border-radius: 5px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
     margin-bottom: 1rem;
     background-color: #B5DDFF;
 
@@ -225,6 +252,7 @@ footer{
         display: block;
         margin-left: 0;
         width: 50%;
+        padding-top: 4rem;
    }
 
 
@@ -275,6 +303,14 @@ footer{
     .container {
         width: 900px;
         margin: 0 auto;
+    }
+
+    .right {
+        padding-right: 2rem;
+    }
+
+    .left {
+        padding-left: 2rem;
     }
     
     .flex_row {
