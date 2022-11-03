@@ -15,6 +15,11 @@ header {
     padding: 2rem;
 }
 
+.nav_desktop {
+    display: none;
+}
+
+
 img {
     width: 100%;
 }
@@ -88,6 +93,9 @@ a {
     font-size: 1.5rem;
 }
 
+.fa-brands, .fab {
+    padding-right: 0.5rem;
+}
 .card h2,
 h3,
 p,
@@ -113,6 +121,11 @@ button {
     width: 10rem;
     font-size: 1.2rem;
     margin: 1rem 0;
+}
+
+
+.linkedin_button {
+    width: 16rem;
 }
 
 .big_button {
@@ -203,6 +216,9 @@ section#benefits h1 {
     padding: 2rem;
 }
 
+#about_us {
+    padding: 2rem;
+}
 .img_left,
 .minicard {
     padding: 1rem;
@@ -288,7 +304,9 @@ footer{
         flex-wrap: wrap;
         width: 100%;
     } */
-
+    .nav_desktop {
+        display: none;
+    }
 
     #info_grid {
          margin: .5rem 0 2rem 0;
@@ -420,6 +438,34 @@ footer{
         width: 100%; */
     }
     
+    .hamburger {
+        display: none;
+    }
+
+    .nav_desktop {
+        display: block;
+    }
+    .white_button {
+        border: none;
+        background-color: white;
+        border-radius: 50px;
+        color: black;
+        width: 7rem;
+        font-size: .8rem;
+    }
+
+    ul li {
+        list-style: none;
+        display: inline;
+        padding: .5rem;
+        font-size: .8rem;
+    
+    }
+    a {
+        text-decoration: none;
+        color:white;
+    }
+
     .violet_card {
         margin-bottom: 1.5rem;
     }
