@@ -82,11 +82,6 @@ button {
     width: 100%;
 }
 
-.flex_row {
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
 
 .container{
     width: 100%;
@@ -116,6 +111,10 @@ button {
     padding: 2rem;
 }
 
+section#benefits h1 {
+    text-align: center;
+    padding: 2rem;
+}
 .img_left,
 .minicard {
     padding: 1rem;
@@ -139,7 +138,8 @@ button {
     border-radius: 25px;
     padding: 1rem;
     color:white;
-    margin: 1.5rem 1.5rem;
+    margin: 1.5rem;
+    width: calc(100% - 3rem);
 }
 
 .number_card {
@@ -154,6 +154,9 @@ button {
     padding: 1rem;
 }
 
+.intro_benefits {
+    padding-bottom: 2rem;
+}
 
 #get_started {
     text-align: center;
@@ -173,7 +176,7 @@ footer{
 /* tablet */
 @media screen and (min-width: 768px) {
     
-
+    
     /* .flex_col {
         flex-direction: column;
         flex-wrap: wrap;
@@ -239,10 +242,10 @@ footer{
      .number_card {
         padding: .5rem;
         border: 1px solid rgb(85, 0, 255);
-        border-radius: 5px;
+        border-radius: 20px;
         margin: .5rem;
         max-width: calc(100% / 2);
-        height: 600px;
+        /* height: 600px; */
         background-color: white;
         width: calc((100% / 2) - 2rem);
     
@@ -258,21 +261,76 @@ footer{
     }
 
     
+    .info {
+        padding: 1rem 8rem;
+    }
 }
 
 
 
 /* desktop */
+
 @media (min-width: 992px) {
 
     .container {
         width: 900px;
         margin: 0 auto;
     }
-
+    
+    .flex_row {
+        flex-direction: row;
+        align-items: flex-end;
+        /* flex-wrap: wrap;
+        width: 100%; */
+    }
+    
     .violet_card {
-        
         margin-bottom: 1.5rem;
     }
   
+    .img_left,
+    .minicard {
+        width: calc(100% / 2 - 1rem);
+    }
+    /* .img_left {
+        height: 600px;
+    }
+
+    .minicard {
+        height: 400px;
+    } */
+
+    .img_left img {
+        width: 80%;
+    }
+    
+    .minicard img {
+        width: 60%;
+    }
+    
+    #strategic {
+        padding: 6rem;
+    }
+    
+
+    
+
+    .number_card {
+        /* padding: .5rem;
+        border-radius: 20px;
+        margin: .5rem; */
+        /* max-width: calc((100% / 2) - 2rem); */
+        /* height: 600px; */
+        /* background-color: white; */
+        width: calc((100% / 3) - 3rem);
+    
+    } 
+    
+    
+    /* section#benefits h1 {
+        text-align: center;
+        padding: 2rem;
+} */
+
+
 }
